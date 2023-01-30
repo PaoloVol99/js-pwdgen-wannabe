@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: currentColor;
+}
+
+.grid {
+    display: grid;
+    height: 100vh;
+    grid-template-rows: 80px 1fr;
+    font-family: 'DM Serif Display', serif;
+}
+
+header {
+    background-color: orange;
+    padding: 0 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    background-color: rgb(71, 63, 124);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2 {
+    color: rgb(71, 63, 124);
+    line-height: 50px;
+}
+
+h1 {
+    color: orange;
+    font-size: 5vw;
+    border-bottom: 5px solid orange;
+}
